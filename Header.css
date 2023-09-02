@@ -1,0 +1,19 @@
+/* Header.css */
+.header-container {
+    background-color: #561b1f; 
+    color: #beb07b; 
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 20vh; 
+  }
+  
+  .header-title {
+    font-size: 30px; 
+    margin: 0;
+    font-weight: bold; 
+  }
+  

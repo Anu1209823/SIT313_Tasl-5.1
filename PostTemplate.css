@@ -1,0 +1,56 @@
+/* PostTemplate.css */
+
+.post-container {
+    background-color: #561b1f;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align contents to the left */
+    margin-top: 65px;
+  }
+  
+  .text-box,
+  .content-textarea,
+  .tag-input,
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent; /* Make the background transparent */
+    color: #fff; /* Text color */
+  }
+  
+  .content-textarea {
+    font-size: 18px; /* Adjust the font size as needed */
+    width: 235%;
+    height: 100%;
+    direction: ltr; /* Set text direction to left-to-right */
+  }
+  
+  .tags-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align contents to the left */
+  }
+  
+  .tags-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tag-item {
+    color: #fff;
+  }
+  
+  .submit-button {
+    background-color: #fff;
+    color: #561b1f;
+    border: none;
+  }
+  
